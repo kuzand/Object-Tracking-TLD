@@ -1,0 +1,38 @@
+%YAML:1.0
+---
+RAND_SEED: 42
+################################
+# Median Flow tracker parameters
+################################
+LEN_POINTS: 10
+TOTAL_NUM_POINTS: 100
+RAND_POINTS: 0
+LK_WIN_SIZE: [ 15, 15 ]
+MAX_PYR_LEVEL: 3
+NCC_PATCH_SIZE: [ 10, 10 ]
+FB_THRESHOLD: 10.
+MAX_MEDIAN_DISPLACEMENT: 10.
+TERM_CRITERIA_COUNT: 10
+TERM_CRITERIA_EPS: 0.03
+###############################
+# Cascade classifier parameters
+###############################
+VARIANCE_FRACTION: 0.6
+OVERLAP_THRESHOLD: 0.5
+NUM_FERNS: 8
+NUM_BINARY_FEATURES: 5
+SCALE_STEP: 0.2
+MIN_SCALE: 0.2
+MAX_SCALE: 2.2
+WIDTH_FRACTION: 0.1
+HEIGHT_FRACTION: 0.1
+MIN_AREA: 25.
+THETA_PLUS: 0.70
+THETA_MINUS: 0.60
+#########################
+# Object model parameters
+#########################
+RAND_REPLACEMENT: 0
+TEMPLATE_SIZE: [ 15, 15 ]
+INIT_OBJ_MODEL_SIZE: 20
+MAX_OBJ_MODEL_SIZE: 50
